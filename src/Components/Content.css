@@ -1,0 +1,72 @@
+.content_main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.content_top img {
+  border-radius: 30px;
+  border: none;
+  width: 82%;
+}
+
+.poster_slider {
+  margin-top: -100px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.content_bottom {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.poster_left {
+  display: flex;
+  flex-direction: column;
+}
+
+.poster_title h3 {
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.poster_info {
+  display: flex;
+  align-items: center;
+  color: #9d9ea7;
+  margin-top: -5px;
+  margin-bottom: -5px;
+}
+
+.poster_info p {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.poster_info h6 {
+  margin: 0 10px;
+  font-size: 18px;
+}
+
+.poster_info label circle {
+  r: 3;
+}
+
+.poster_rating {
+  margin-top: -10px;
+  display: flex;
+  align-items: center;
+}
+
+.rating_star img {
+  margin-right: 10px;
+}
+
+.poster_right {
+  text-align: end;
+  width: 30%;
+}

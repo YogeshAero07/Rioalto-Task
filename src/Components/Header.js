@@ -34,7 +34,7 @@ const Header = () => {
         <div className="header_weather">
           <img src={cloud} alt="cloud" />
           <div className="weather_text">
-            <h4>32 C</h4>
+            <h4>32 °C</h4>
             <h6>Pune, India</h6>
           </div>
         </div>

@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100vh;
 }
 
 .content_top img {
@@ -26,6 +25,7 @@
 .poster_left {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
 }
 
 .poster_title h3 {
@@ -45,11 +45,13 @@
 .poster_info p {
   margin-right: 10px;
   font-size: 18px;
+  color: #9698a2;
 }
 
 .poster_info h6 {
   margin: 0 10px;
   font-size: 18px;
+  color: #9698a2;
 }
 
 .poster_info label circle {
@@ -64,6 +66,7 @@
 
 .rating_star img {
   margin-right: 10px;
+  width: 16px;
 }
 
 .poster_right {

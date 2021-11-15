@@ -16,24 +16,6 @@ import Setting from "./Setting";
 const Content = () => {
   return (
     <div className="content_main">
-      <div className="content_top">
-        {/* <img src={Luca} alt="Luca" /> */}
-        <Routes>
-          <Route path="/navbar" element={<Navbar />}>
-            <Route path="home" element={<Home />} />
-            <Route path="popular" element={<Popular />} />
-            <Route path="tv-series" element={<TV_Series />} />
-            <Route path="movies" element={<Movies />} />
-            <Route path="profile" element={<Profile />} />
-            <Route path="setting" element={<Setting />} />
-          </Route>
-        </Routes>
-      </div>
-
-      <div className="poster_slider">
-        <h1>HIIIIIII</h1>
-      </div>
-
       <div className="content_bottom">
         <div className="poster_left">
           <div className="poster_title">

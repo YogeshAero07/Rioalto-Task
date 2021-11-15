@@ -20,8 +20,8 @@
 }
 
 .header_logo img {
-  width: 35 px;
-  border-radius: 20 px;
+  width: 35px;
+  border-radius: 20px;
 }
 
 .header_text {
@@ -37,9 +37,9 @@
 .header_search {
   display: flex;
   align-items: center;
-  padding: 5 px 18 px;
-  height: 35 px;
-  border-radius: 14 px;
+  padding: 5px 18px;
+  height: 27px;
+  border-radius: 14px;
   background: #282e50;
 }
 
@@ -54,12 +54,43 @@
   border: none;
   height: 20px;
   outline: none;
+  color: white;
 }
 
 .header_notification {
   margin-left: 10px;
+  height: 27px;
+  padding: 6px;
+  background: #282e50;
+  border-radius: 8px;
 }
 
 .header_weather {
   margin-left: 10px;
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 6px 19px;
+  height: 27px;
+  background: #282e50;
+  border-radius: 8px;
+}
+
+.header_weather img {
+  margin-right: 15px;
+}
+
+.weather_text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+}
+
+.weather_text h4 {
+  font-size: 12px;
+  margin-bottom: 12px;
+}
+
+.weather_text h6 {
+  margin-top: -11px;
 }

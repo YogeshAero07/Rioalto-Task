@@ -1,10 +1,11 @@
 import React from "react";
 import "./Home.css";
+import Luca from "../Images/Luca.jpeg";
 
 const Home = () => {
   return (
-    <div>
-      <h1>Home </h1>
+    <div className="home_main">
+      <img src={Luca} alt="Luca" />
     </div>
   );
 };

@@ -16,14 +16,14 @@ function App() {
         <Routes>
           <Route path="/" element={<LandingPage />} />
 
-          {/* <Route path="/navbar" element={<Navbar />}>
+          <Route path="/navbar" element={<Navbar />}>
             <Route path="home" element={<Home />} />
             <Route path="popular" element={<Popular />} />
             <Route path="tv-series" element={<TV_Series />} />
             <Route path="movies" element={<Movies />} />
             <Route path="profile" element={<Profile />} />
             <Route path="setting" element={<Setting />} />
-          </Route> */}
+          </Route>
         </Routes>
       </BrowserRouter>
     </div>
